@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgmain"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        app:srcCompat="@drawable/kardus" />
+
+    <Button
+        android:id="@+id/btnlist"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:text="Lihat Data"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btninput"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:text="Input Data"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btninformasi"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:text="informasi Aplikasi"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:text="Keluar"
+        android:textSize="18sp" />
+
+</LinearLayout>
